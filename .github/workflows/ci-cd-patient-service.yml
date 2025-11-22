@@ -5,7 +5,7 @@ on:
     branches: [main, develop]
     paths:
       - 'patient-service/**'
-      - 'k8s/base/patient-service-*.yaml'
+      - 'helm/base/patient-service-*.yaml'
       - '.github/workflows/ci-cd-patient-service.yml'
   pull_request:
     branches: [main, develop]
